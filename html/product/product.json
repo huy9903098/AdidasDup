@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ultraboost 4.0 DNA Shoes",
+      "price": 170,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/584670fb39cd4f1aa70fac5500914ec4_9366/Ultraboost_4.0_DNA_Shoes_Black_FY9121_01_standard.jpg",
+      "type": "Men Running"
+    },
+    {
+      "id": 2,
+      "name": "Ultraboost 21 Shoes",
+      "price": 200,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/707bd9b6c1a44ce7bb58ac77012fcb2e_9366/Ultraboost_21_Shoes_Grey_FY0375_01_standard.jpg",
+      "type": "Men Running"
+    },
+    {
+      "id": 3,
+      "name": "Ultraboost 4.0 DNA Shoes",
+      "price": 170,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/c79a34cb2e4a4bbe81c8ac1e011ac76c_9366/Ultraboost_4.0_DNA_Shoes_Black_FY9318_01_standard.jpg",
+      "type": "Men Running"
+    },
+    {
+      "id": 4,
+      "name": "Primeblue SST Track Pants",
+      "price": 55,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/9e9f4bc1f5db47fbb419ab5000f5fd12_9366/Primeblue_SST_Track_Pants_Black_GD2361_21_model.jpg",
+      "type": "Woman Originals"
+    },
+    {
+      "id": 5,
+      "name": "Ultraboost 4.0 DNA Shoes",
+      "price": 170,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/b56f062b132c400ab494ac67011578a5_9366/Ultraboost_4.0_DNA_Shoes_White_FY9120_01_standard.jpg",
+      "type": "Men Running"
+    },
+    {
+      "id": 6,
+      "name": "Ultraboost 4.0 DNA Shoes",
+      "price": 170,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/d664e5190b134e7481dcac9200edc282_9366/Ultraboost_4.0_DNA_Shoes_Grey_H05259_01_standard.jpg",
+      "type": "Men Running"
+    },
+    {
+      "id": 7,
+      "name": "Ultraboost 4.0 DNA Shoes",
+      "price": 170,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/5370778f2e99474fbf2fac550092a0b6_9366/Ultraboost_4.0_DNA_Shoes_Grey_FY9319_01_standard.jpg",
+      "type": "Men Running"
+    },
+    {
+      "id": 8,
+      "name": "Ultraboost 21 Shoes",
+      "price": 200,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/e1aecacc9ed94cf0a85faca601130ae7_9366/Ultraboost_21_Shoes_Black_FY0378_01_standard.jpg",
+      "type": "Running"
+    },
+    {
+      "id": 9,
+      "name": "Ultraboost 4.0 DNA Shoes",
+      "price": 170,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/0373de8b037844e5a2caac5a01601d5a_9366/Ultraboost_4.0_DNA_Shoes_Blue_H05246_01_standard.jpg",
+      "type": "Running"
+    },
+    {
+      "id": 10,
+      "name": "Adicolor SST Track Pants",
+      "price": 38,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/049db17a74454beeb735ac360103c076_9366/Adicolor_SST_Track_Pants_Black_GN8453_01_laydown.jpg",
+      "type": "Kids Original"
+    },
+    {
+      "id": 11,
+      "name": "adidas by Stella McCartney Ultraboost 20 Shoes",
+      "price": 250,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/a04900a576eb4a8aac49ac3c002e9522_9366/adidas_by_Stella_McCartney_Ultraboost_20_Shoes_Pink_FY1184_01_standard.jpg",
+      "type": "Women adidas by Stella McCartney"
+    },
+    {
+      "id": 12,
+      "name": "Adicolor Classics Firebird Primeblue Track Pants",
+      "price": 65,
+      "img": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy/ab6ac329629c42f09a1dac8400910ebe_9366/Adicolor_Classics_Firebird_Primeblue_Track_Pants_Black_GN3517_21_model.jpg",
+      "type": "Men Originals"
+    }
+  ]
+}

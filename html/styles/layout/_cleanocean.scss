@@ -1,0 +1,81 @@
+.cleanocean {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: 120%;
+
+    @include tablet {
+      padding-top: 86.7346938776%;
+    }
+
+    @include desktop {
+      padding-top: 37.5%;
+    }
+  }
+
+  &__wallpaper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+
+    &__container {
+      height: 100%;
+    }
+
+    .video-icon-wrapper {
+      filter: invert(1);
+      z-index: 34;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: color 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+    }
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    &__container {
+      text-align: left;
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+
+      @include tablet {
+        padding-top: 8.33333%;
+        padding-bottom: 8.33333%;
+        padding-left: 0;
+      }
+    }
+
+    &__button-container {
+      margin: 15px 0px 15px 0px;
+      .arrow-icon {
+        margin-top: 5px;
+        flex-shrink: 0;
+        margin-left: 20px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 24px;
+        color: white;
+      }
+    }
+  }
+}

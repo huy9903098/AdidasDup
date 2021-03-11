@@ -1,0 +1,63 @@
+@import '../abstract/variable';
+
+body {
+  font-family: 'AdihausDIN', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background-color: $color-white;
+  color: $color-black;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'AdineuePRO', Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px $color-white;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.gl-heading--drop-shadow {
+  text-shadow: 1px 1px $color-white;
+}
+
+.gl-heading--drop-shadow--dark {
+  text-shadow: 1px 1px $color-black;
+}
+
+.gl-heading--l {
+  font-size: 36px;
+  line-height: 32px;
+}
+
+.gl-heading--xxl {
+  font-size: 56px;
+  line-height: 48px;
+}
+
+.color-theme-black {
+  color: $color-black;
+}
+
+.color-theme-white {
+  color: $color-white;
+}
+
+.gl-paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
+.gl-heading--l {
+  font-size: 42px;
+  line-height: 38px;
+}

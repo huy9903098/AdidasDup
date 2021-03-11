@@ -1,0 +1,106 @@
+.btn-text {
+  align-items: center;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: flex-start;
+  line-height: 50px;
+  min-height: 50px;
+  padding: 0 21px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform 0.1s cubic-bezier(0.3, 0, 0.45, 1),
+    color 0.1s cubic-bezier(0.3, 0, 0.45, 1),
+    border 0.1s cubic-bezier(0.3, 0, 0.45, 1),
+    background 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+  white-space: nowrap;
+  width: auto;
+
+  &__black-theme {
+    @extend .btn-text;
+    transform: translate(-3px, -3px);
+    font-size: 13px;
+    font-family: 'AdihausDIN', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: $color-black;
+    border-color: $color-white;
+    color: $color-white;
+    height: 50px;
+
+    &:hover {
+      color: $color-dark-grey;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      transition: 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+      border-bottom: 1px solid $color-black;
+      border-left: 1px solid $color-black;
+      bottom: -3px;
+      height: 3px;
+      left: 3px;
+      width: 100%;
+    }
+
+    &::after {
+      border-right: 1px solid $color-black;
+      border-top: 1px solid $color-black;
+      height: 100%;
+      right: -3px;
+      top: 3px;
+      width: 3px;
+      content: '';
+      display: block;
+      position: absolute;
+      transition: 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+    }
+  }
+
+  &__white-theme {
+    @extend .btn-text;
+    transform: translate(-3px, -3px);
+    font-size: 13px;
+    font-family: 'AdihausDIN', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: $color-white;
+    border-color: $color-white;
+    color: $color-black;
+    height: 50px;
+
+    &:hover {
+      color: $color-dark-grey;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      transition: 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+      border-bottom: 1px solid $color-white;
+      border-left: 1px solid $color-white;
+      bottom: -3px;
+      height: 3px;
+      left: 3px;
+      width: 100%;
+    }
+
+    &::after {
+      border-right: 1px solid $color-white;
+      border-top: 1px solid $color-white;
+      height: 100%;
+      right: -3px;
+      top: 3px;
+      width: 3px;
+      content: '';
+      display: block;
+      position: absolute;
+      transition: 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+    }
+  }
+}
